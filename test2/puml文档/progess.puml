@@ -1,0 +1,17 @@
+/'
+@startuml
+(*)  --> "check input"
+If "input is verbose" then
+--> [Yes] "turn on verbosity"
+--> "run command"
+else
+--> "run command"
+Endif
+-->(*)
+@enduml'/
+@startuml
+start
+:购入图书;
+:系统管理员添加图书信息;
+stop
+@enduml

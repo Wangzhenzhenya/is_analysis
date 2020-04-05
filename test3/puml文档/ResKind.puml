@@ -1,0 +1,9 @@
+@startuml
+object ResKind
+ResKind : resName = "classical music"
+ResKind : ISBN = 1233312312
+ResKind : price=56.0
+ResKind : BrifeIntro="about classical music"
+ResKind : num=30
+ResKind : availbale=12
+@enduml

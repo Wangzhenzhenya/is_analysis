@@ -1,0 +1,10 @@
+@startuml
+object Reader
+Reader : userName="wz"
+Reader : idCard="0123"
+Reader : borrowNum=1314
+Reader : bookMax=40
+Reader : bookBorrow=20
+Reader : discMax=20
+Reader : discBorrow=10
+@enduml

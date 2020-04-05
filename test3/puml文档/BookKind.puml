@@ -1,0 +1,6 @@
+@startuml
+object BookKind
+BookKind : author="龙应台"
+BookKind : press="新华出版社"
+BookKind : pubDate="2020-04-1"
+@enduml

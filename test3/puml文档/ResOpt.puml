@@ -1,0 +1,5 @@
+@startuml
+object ResOpt
+ResOpt : saveNum="2013920112"
+ResOpt : status="available"
+@enduml

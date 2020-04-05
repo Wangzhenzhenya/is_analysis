@@ -1,0 +1,5 @@
+@startuml
+object BookManager
+BookManager : employeeId="201710414319"
+BookManager : employeeName="wz"
+@enduml

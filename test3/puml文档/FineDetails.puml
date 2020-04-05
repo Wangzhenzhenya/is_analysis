@@ -1,0 +1,4 @@
+@startuml
+object FineDetails
+FineDetails : fineNum=300
+@enduml

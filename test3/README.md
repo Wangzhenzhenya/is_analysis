@@ -10,8 +10,6 @@
 
 ```
 @startuml
-
-
 '在类OPAC（馆藏目录）中记录了所有的馆藏资源品种
 class OPAC
 {

@@ -48,7 +48,7 @@
 |State|int| |是| | |0-未逾期<br>1-逾期|
 
 ## 2. 界面设计
-网页地址  is_analysis_page: <https://wangzhenzhenya.github.io/is_analysis_pages/home>
+网页地址  is_analysis_page: <https://wangzhenzhenya.github.io/is_analysis_pages/>
 ## 登录界面
 ![image](./img/login.png)
 ## 主页

@@ -59,7 +59,7 @@
 - ### [“修改密码”用例](./用例/修改密码.md),[界面](https://wangzhenzhenya.github.io/analysis_test6/修改密码.html)
 > #### 主要功能  
 > 1.输入原密码，验证成功后输入新密码更新数据库
-- ### [“找回密码”用例](./用例/修改密码.md),[界面](https://wangzhenzhenya.github.io/analysis_test6/找回密码.html)
+- ### [“找回密码”用例](./用例/找回密码.md),[界面](https://wangzhenzhenya.github.io/analysis_test6/找回密码.html)
 > #### 主要功能  
 > 1.通过用户之前绑定的手机，发送验证码   
 > 2.验证用户输入的信息和验证码是否正确，正确则跳出填写新密码的框，不正确提示用户相关信息错误

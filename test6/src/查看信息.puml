@@ -1,0 +1,8 @@
+@startuml
+title 基于GitHub的实验管理平台--查看个人信息用例的顺序图
+
+actor users
+database 数据库存储
+users -> 数据库存储: 查看用户信息
+数据库存储 -> users: 返回用户基本信息
+@enduml

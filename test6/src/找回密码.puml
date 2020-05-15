@@ -1,0 +1,27 @@
+@startuml
+skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 2
+skinparam titleBorderColor #Black
+skinparam titleFontSize 24
+Title findPassword
+
+actor findPassword页面
+actor API服务
+database 数据库存储
+
+== 找回密码页面 ==
+数据库存储->数据库存储:预存了每个用户的信息：\n用户名+hash加密的密码
+API服务->API服务:服务程序启动，生成公钥和私钥
+findPassword页面->API服务:页面事件：mounted()，\nAPI请求:<b>get_public_key_str<b>，获取公钥
+API服务->findPassword页面:返回公钥：public_key_str
+findPassword页面->findPassword页面:用户输入用户账号、手机号、验证码，点击确定按钮
+findPassword页面->findPassword页面:检测输入的信息是否正确
+findPassword页面->findPassword页面:使用JSEncrypt通过公钥加密输入的新密码
+findPassword页面->API服务:API请求:<b>findPassword</b>,参数是用户名和公钥加密密码
+API服务->API服务:使用RSA根据私钥解密收到的加密密码，得到用户密码
+API服务->数据库存储:更新密码到数据库
+数据库存储->API服务:返回该用户的hash密码
+API服务->API服务:调用check_password_hash(hash密码,用户密码)
+API服务->findPassword页面:返回成功信息
+== 用户找回密码成功后，跳转到登录页面，清除Cookie==
+@enduml

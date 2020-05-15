@@ -1,0 +1,6 @@
+@startuml
+title 基于GitHub的实验管理平台--学生选课用例的顺序图
+actor students
+students -> course: 查看所有能选择的课程
+course ->students:选择一个课程或者推选一个课程
+@enduml

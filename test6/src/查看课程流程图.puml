@@ -1,0 +1,11 @@
+@startuml
+title 基于GitHub的实验管理平台--查看课程用例的顺序图
+actor users
+users -> course: 查看所有课程
+alt 如果users是老师
+	course --> users:所选学期所教授的课程名称
+else 如果users是students
+    course --> users:所选学期的课程名称
+    grades --> users:所选学期的课程分数
+end
+@enduml

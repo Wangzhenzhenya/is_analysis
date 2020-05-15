@@ -1,0 +1,5 @@
+@startuml
+title 基于GitHub的实验管理平台--添加课程用例的顺序图
+actor teacher
+teacher -> course: 新建课程
+@enduml

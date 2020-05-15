@@ -50,18 +50,6 @@
 > 1.通过账号和密码登录选择是学生还是老师，系统验证正确则跳到个人主页  
 > 2.忘记密码则点击“忘记密码”按钮跳转到找回密码页面  
 > 3.没有账号可点击游客模式，跳转到游客模式
-- ### [“游客模式”用例](./用例/学生列表.md),[界面](https://wangzhenzhenya.github.io/analysis_test6/查看同学.html)
-> #### 主要功能 
-> 1.显示所有学生学号、姓名、班级、姓名Github名称、个人信息修改最新日期
-- ### [“学生选课”用例](./用例/学生选课.md),[界面](https://wangzhenzhenya.github.io/analysis_test6/学生选课.html)
-> #### 主要功能  
-> 1.学生选择课程参与学习
-
-- ### [“学生列表”用例](./用例/学生列表.md),[界面](https://wangzhenzhenya.github.io/analysis_test6/学生列表.html)
-> #### 主要功能  
-> 1.显示每位同学的各项实验成绩，老师可以通过“评定成绩按钮”进入到某个同学的成绩评定页面  
-> 2.学生的Github栏可连接到学生的Github页面  
-> 3.此页面老师仍然可以查看/修改个人信息、修改密码  
 - ### [“评定成绩”用例](./用例/评定成绩.md),[界面](https://wangzhenzhenya.github.io/analysis_test6/评定成绩.html)
 > #### 主要功能  
 > 1.显示同学各项实验的具体要求，老师可输入每个实验的各项评分与批改评语  
@@ -82,6 +70,17 @@
 - ### [“查看用户信息”用例](./用例/查看用户信息.md),[界面](https://wangzhenzhenya.github.io/analysis_test6/个人信息.html)
 > #### 主要功能  
 > 1.通过getUserInfo获取用户信息并显示到页面
+- ### [“游客模式”用例](./用例/学生列表.md),[界面](https://wangzhenzhenya.github.io/analysis_test6/查看同学.html)
+> #### 主要功能 
+> 1.显示所有学生学号、姓名、班级、姓名Github名称、个人信息修改最新日期
+- ### [“学生选课”用例](./用例/学生选课.md),[界面](https://wangzhenzhenya.github.io/analysis_test6/学生选课.html)
+> #### 主要功能  
+> 1.学生选择课程参与学习
+- ### [“学生列表”用例](./用例/学生列表.md),[界面](https://wangzhenzhenya.github.io/analysis_test6/学生列表.html)
+> #### 主要功能  
+> 1.显示每位同学的各项实验成绩，老师可以通过“评定成绩按钮”进入到某个同学的成绩评定页面  
+> 2.学生的Github栏可连接到学生的Github页面  
+> 3.此页面老师仍然可以查看/修改个人信息、修改密码  
 - ### [“查看课程信息”用例](./用例/查看课程.md),[界面](https://wangzhenzhenya.github.io/analysis_test6/查看课程.html)
 > #### 主要功能  
 > 1.通过getCourse获取用户的课程信息
@@ -100,6 +99,5 @@
 > 2.以列表形式显示往期课程，往期课程只允许查看学生列表  
 > 3.查看/修改用户信息  
 > 4.修改Github用户  
-## 7. 未来展望
 
     
